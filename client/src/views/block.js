@@ -68,15 +68,6 @@ export default ({ t, block: b, blockStatus: status, blockTxs, openTx, spends, op
           <div>{t`Size`}</div>
           <div>{`${formatNumber(b.size/1000)} KB`}</div>
         </div>
-        <div>
-          <div>{t`Virtual size`}</div>
-          <div>{`${Math.ceil(b.weight/4/1000)} vKB`}</div>
-        </div>
-        <div>
-          <div>{t`Weight units`}</div>
-          <div>{`${formatNumber(b.weight/1000)} KWU`}</div>
-        </div>
-
         { /* advanced details */ }
         { openBlock == b.id && [
 

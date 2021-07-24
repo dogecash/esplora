@@ -39,6 +39,5 @@
   "Transaction: %s": "交易: %0",
   "Type": "类型",
   "Unconfirmed": "没确认",
-  "Version": "版本",
-  "Weight (KWU)": "重量 (KWU)"
+  "Version": "版本"
 }

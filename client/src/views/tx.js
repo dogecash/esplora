@@ -137,14 +137,6 @@ const txHeader = (tx, { tipHeight, mempool, feeEst, t
       <div>{`${formatNumber(tx.size)} B`}</div>
     </div>
     <div>
-      <div>{t`Virtual size`}</div>
-      <div>{`${formatNumber(Math.ceil(tx.weight/4))} vB`}</div>
-    </div>
-    <div>
-      <div>{t`Weight units`}</div>
-      <div>{`${formatNumber(tx.weight)} WU`}</div>
-    </div>
-    <div>
       <div>{t`Version`}</div>
       <div>{tx.version}</div>
     </div>

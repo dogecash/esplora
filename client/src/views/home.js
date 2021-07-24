@@ -10,7 +10,6 @@ const homeLayout = (body, { t, activeTab, ...S }) => layout(
   <div>
     <div className="jumbotron jumbotron-fluid">
       <div className="explorer-title-container">
-        <img className="explorer-title-container_logo" alt="" src={`${staticRoot}img/icons/menu-logo.png`} />
         <h1 className="explorer-title-container_title">{t(process.env.HOME_TITLE || process.env.SITE_TITLE || 'Block Explorer')}</h1>
       </div>
       { search({ t, autofocus: !isTouch }) }
@@ -37,7 +36,6 @@ export const recentBlocks = ({ t, blocks, loading, ...S }) => homeLayout(
         <div className="blocks-table-cell">{t`Timestamp`}</div>
         <div className="blocks-table-cell">{t`Transactions`}</div>
         <div className="blocks-table-cell">{t`Size (KB)`}</div>
-        <div className="blocks-table-cell">{t`Weight (KWU)`}</div>
       </div>
       { blocks && blocks.map(b =>
         <div className="blocks-table-link-row">
@@ -46,7 +44,6 @@ export const recentBlocks = ({ t, blocks, loading, ...S }) => homeLayout(
           <div className="blocks-table-cell" data-label={t`Timestamp`}>{formatTime(b.timestamp, t)}</div>
           <div className="blocks-table-cell" data-label={t`Transactions`}>{formatNumber(b.tx_count)}</div>
           <div className="blocks-table-cell" data-label={t`Size (KB)`}>{formatNumber(b.size/1000)}</div>
-          <div className="blocks-table-cell" data-label={t`Weight (KWU)`}>{formatNumber(b.weight/1000)}</div>
         </a>
         </div>
       )}

@@ -1,0 +1,22 @@
+
+.jumbotron-fluid {
+    background-image: linear-gradient(125deg, #18171d 60%, rgba(204, 142, 88, 1) 100%);
+}
+
+.search-bar {
+    border: 1px solid rgba(168, 184, 201, 1);
+    box-shadow: 0px 0px 6px 0px rgba(168, 184, 201, 1);
+}
+
+.details-btn > div { 
+    color: rgba(168, 184, 201, 1);
+    border: 1px solid rgba(168, 184, 201, 1);
+}
+
+.transaction-box > .footer > div:nth-child(3) {
+    color: rgba(168, 184, 201, 1);
+}
+
+.navbar {
+    background-image: linear-gradient(125deg, #18171d 68%, rgb(153 106 65) 100%)
+}

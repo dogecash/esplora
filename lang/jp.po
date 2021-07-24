@@ -479,9 +479,6 @@ msgstr ""
 msgid "We encountered an error. Please try again later."
 msgstr "エラーが発生しました。後ほどもう一度お試し下さい。"
 
-msgid "Weight (KWU)"
-msgstr "ブロックウェイト"
-
 msgid "Weight units"
 msgstr ""
 

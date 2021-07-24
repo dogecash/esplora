@@ -1,16 +1,4 @@
-@import url("font/inconsolata/index.css");
-@import url("light-theme_style.css");
-
-@font-face {
-  font-family: DINPro;
-  src: url("font/DINPro-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: DINPro;
-  font-weight: bold;
-  src: url("font/DINPro-Medium.otf") format("opentype");
-}
+@import url("https://use.typekit.net/azv2zbv.css");
 
 .hide {
   display: none !important;
@@ -19,7 +7,7 @@
 body {
   direction: ltr;
   text-align: left;
-  font-family: DINPro;
+  font-family: aileron,sans-serif;
   color: #fff;
 }
 
@@ -32,7 +20,7 @@ body[lang=he] {
 }
 
 a, a:link, a:visited, a:hover, a:focus {
-  color: #00ccff;
+  color: #A8633A;
   text-decoration: none;
 }
 
@@ -47,7 +35,7 @@ a, a:link, a:visited, a:hover, a:focus {
   margin-bottom: -80px;
   /* background-color: rgba(17, 19, 22, 1); */
   /* background-color: transparent; */
-  background-image: linear-gradient(-90deg, rgba(150, 101, 26, 1) 0%, rgba(115, 71, 28, 1) 18%, rgba(76, 52, 35, 1) 33%, rgba(33, 36, 41, 1) 58%, rgba(14, 16, 17, 1) 100%);
+  background-image: linear-gradient(125deg, #18171d 60%, rgba(204, 142, 88, 1) 100%);
   position: relative;
   z-index: 10;
 }
@@ -57,10 +45,10 @@ a, a:link, a:visited, a:hover, a:focus {
   font-size: 0px;
 }
 .navbar-brand::before {
-  width: 54px;
-  height: 54px;
+  width: 201px;
+  height: 55px;
   background: url(img/icons/menu-logo.png);
-  background-size: 54px 54px;
+  background-size: 201px 55px;
   display: inline-block;
   vertical-align: top;
   content: ' ';
@@ -642,7 +630,7 @@ body > .container, .navbar > .container, .jumbotron-fluid > .container, .content
 }
 
 .highlighted-text {
-  color: #00ccff !important;
+  color: #A8633A !important;
 }
 
 .newer-older-blocks-btns {
@@ -1314,7 +1302,7 @@ body::after{
 }
 
 .title-bar-recent h1 .active {
-  border-bottom: solid 2px #00c3ff;
+  border-bottom: solid 2px #A8633A;
   color: #ffffff;
 }
 

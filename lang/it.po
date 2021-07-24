@@ -481,9 +481,6 @@ msgstr ""
 msgid "We encountered an error. Please try again later."
 msgstr "C'è stato un problema. Per piacere riprova più tardi."
 
-msgid "Weight (KWU)"
-msgstr "Peso (KWU)"
-
 msgid "Weight units"
 msgstr ""
 

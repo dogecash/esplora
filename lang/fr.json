@@ -36,6 +36,5 @@
   "Transaction fees": "Frais de transaction",
   "Transaction: %s": "Transaction: %0",
   "Unconfirmed": "Non confirmée",
-  "Unspent": "Non dépensé",
-  "Weight (KWU)": "Poids (KWU)"
+  "Unspent": "Non dépensé"
 }

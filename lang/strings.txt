@@ -170,7 +170,6 @@ Value commitment
 Version
 Virtual size
 We encountered an error. Please try again later.
-Weight (KWU)
 Weight units
 Witness
 Yes

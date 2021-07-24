@@ -35,6 +35,5 @@
   "Transactions": "Transaktionen",
   "Transaction: %s": "Transaktion: %0",
   "Unconfirmed": "Unbestätigt",
-  "Unspent": "Nicht ausgegeben",
-  "Weight (KWU)": "Gewicht (KWU)"
+  "Unspent": "Nicht ausgegeben"
 }

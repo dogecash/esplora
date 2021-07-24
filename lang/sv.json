@@ -38,6 +38,5 @@
   "Transaction: %s": "Transaktion: %0",
   "Type": "Typ",
   "Unconfirmed": "Obekräftad",
-  "Unspent": "Ospenderad",
-  "Weight (KWU)": "Vikt (KWU)"
+  "Unspent": "Ospenderad"
 }

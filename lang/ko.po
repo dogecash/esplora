@@ -479,9 +479,6 @@ msgstr ""
 msgid "We encountered an error. Please try again later."
 msgstr "오류가 발생했습니다. 나중에 다시 시도하십시시오."
 
-msgid "Weight (KWU)"
-msgstr "무게 (KWU)"
-
 msgid "Weight units"
 msgstr ""
 

@@ -479,9 +479,6 @@ msgstr ""
 msgid "We encountered an error. Please try again later."
 msgstr ""
 
-msgid "Weight (KWU)"
-msgstr "Poids (KWU)"
-
 msgid "Weight units"
 msgstr ""
 

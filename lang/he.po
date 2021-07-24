@@ -497,9 +497,6 @@ msgstr "גודל וירטואלי"
 msgid "We encountered an error. Please try again later."
 msgstr "התרחשה שגיאה. נא לנסות שוב מאוחר יותר."
 
-msgid "Weight (KWU)"
-msgstr "משקל (KWU)"
-
 msgid "Weight units"
 msgstr "יחידות משקל"
 

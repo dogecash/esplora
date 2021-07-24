@@ -498,9 +498,6 @@ msgstr "Virtual size"
 msgid "We encountered an error. Please try again later."
 msgstr "We encountered an error. Please try again later."
 
-msgid "Weight (KWU)"
-msgstr "Weight (KWU)"
-
 msgid "Weight units"
 msgstr "Weight units"
 
